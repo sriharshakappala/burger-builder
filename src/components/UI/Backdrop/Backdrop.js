@@ -1,1 +1,11 @@
-array = [1,0,0,2,3,0,4,2,0,1,08,8,0,09 ]
+import React from 'react';
+
+import classes from './Backdrop.css'
+
+const backdrop = (props) => {
+  return (
+    props.show ? <div className={classes.Backdrop} onClick={props.clicked}></div> : null
+  );
+}
+
+export default backdrop;
