@@ -2487,3 +2487,6 @@ If you have ideas for more “How To” recipes that should be on this page, [le
 
 ### Notes
 1. componentDidMount is the place where we do http requests
+2. axios package for http calls
+3. Axios Interceptors -> for any common stuff that needs to be implemented at either request / response
+4.
